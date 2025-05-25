@@ -7,6 +7,6 @@ test('test', async ({ page }) => {
   await page.getByRole('textbox', { name: 'UserName' }).click();
   await page.getByRole('textbox', { name: 'UserName' }).fill('DoyenifyAcademu');
   await page.getByRole('textbox', { name: 'UserName' }).press('Tab');
-  await page.getByRole('textbox', { name: 'Password' }).fill('sfsddsfdasf');
-  await page.getByRole('button', { name: 'Login' }).click();
+  await page.getByRole('textbox', { name: 'Password' }).fill('Password');
+
 });
